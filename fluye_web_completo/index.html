@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLUYE - Lista 3</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e1c2f;
+      color: white;
+      line-height: 1.6;
+    }
+    header, section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .badge {
+      background-color: #00cfff;
+      color: #001;
+      padding: 0.4rem 1rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    h1, h2 {
+      color: white;
+    }
+    h1 span {
+      color: #00cfff;
+    }
+    .box {
+      background-color: #1f2c3f;
+      border-radius: 1rem;
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+    }
+    .highlight {
+      color: #00cfff;
+      font-weight: bold;
+    }
+    .propuesta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .icon {
+      background-color: #00cfff;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: #001;
+    }
+    .equipo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .persona {
+      background-color: #1f2c3f;
+      border-radius: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .persona img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+    .quote {
+      text-align: center;
+      font-size: 1.3rem;
+      color: #00cfff;
+      font-weight: bold;
+      margin: 3rem auto;
+      max-width: 700px;
+    }
+    .voto {
+      background-color: #00cfff;
+      color: #001;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 1rem;
+    }
+    .voto span {
+      background-color: #001;
+      color: #fff;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.4rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="Logo FLUYE" style="width:120px; display:block; margin:auto;">
+  <div class="badge">LISTA 3</div>
+  <h1>¿Por qué votar por <span>FLUYE</span>?</h1>
+  <p>Conoce nuestra propuesta y súmate al cambio desde la ciencia.</p>
+</header>
+
+<section>
+  <div class="box">
+    <h2 class="highlight">¿Quiénes somos?</h2>
+    <p>FLUYE es un grupo estudiantil de <strong>Física e Ingeniería Mecánica de Fluidos</strong> que impulsa actividades académicas, propuestas técnicas, representación responsable y visibilidad para la comunidad científica estudiantil de la Facultad de Ciencias Físicas de la UNMSM.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="highlight">Nuestras Propuestas</h2>
+  <div class="propuesta"><div class="icon">📋</div><div><strong>Actividades y Talleres</strong><p>Más actividades académicas aplicadas y talleres extracurriculares.</p></div></div>
+  <div class="propuesta"><div class="icon">🧪</div><div><strong>Investigación y Prácticas</strong><p>Difusión de oportunidades de investigación y pasantías profesionales.</p></div></div>
+  <div class="propuesta"><div class="icon">🗣️</div><div><strong>Representación Activa</strong><p>Presencia y voz en los espacios de decisión que te afectan.</p></div></div>
+  <div class="propuesta"><div class="icon">❤️</div><div><strong>Bienestar Estudiantil</strong><p>Mejora de espacios comunes: comedores, horarios de microondas, etc.</p></div></div>
+  <div class="propuesta"><div class="icon">🔍</div><div><strong>Transparencia</strong><p>Información clara sobre trámites y asuntos administrativos.</p></div></div>
+</section>
+
+<section>
+  <h2 class="highlight">Conoce al Equipo</h2>
+  <div class="equipo-grid">
+    <div class="persona"><img src="fotos/persona1.jpg" alt="Persona 1"><strong>Ana García</strong><br><small>Física Pura</small></div>
+    <div class="persona"><img src="fotos/persona2.jpg" alt="Persona 2"><strong>Carlos León</strong><br><small>IMF</small></div>
+    <div class="persona"><img src="fotos/persona3.jpg" alt="Persona 3"><strong>Lucía Torres</strong><br><small>Física Pura</small></div>
+    <div class="persona"><img src="fotos/persona4.jpg" alt="Persona 4"><strong>Pedro Díaz</strong><br><small>IMF</small></div>
+    <div class="persona"><img src="fotos/persona5.jpg" alt="Persona 5"><strong>Renata Ruiz</strong><br><small>Física</small></div>
+    <div class="persona"><img src="fotos/persona6.jpg" alt="Persona 6"><strong>Javier Soto</strong><br><small>IMF</small></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="highlight">Video de Presentación</h2>
+  <video controls style="width:100%; border-radius: 1rem; background-color: #000;">
+    <source src="video.mp4" type="video/mp4">
+    Tu navegador no admite el elemento de video.
+  </video>
+</section>
+
+<div class="quote">"Representamos con conciencia, fluimos con acción"</div>
+
+<section class="voto">
+  <h2>¡Este 15 de julio, marca tu voz!</h2>
+  <p>Vota por la <span>Lista 3 – FLUYE</span></p>
+  <p>#VotaFluye <br>#RepresentaciónConCiencia</p>
+</section>
+
+</body>
+</html>
